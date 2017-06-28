@@ -1,0 +1,1059 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*123 CIRLCES*/
+/*BUTTONS*/
+@media only screen and (max-width: 1125px) {
+  /* line 4, ../sass/_mobileresponsive.scss */
+  html body #topheader {
+    padding: 20px;
+  }
+  /* line 6, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj {
+    margin: 30px 20px 30px 20px;
+  }
+  /* line 9, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj.menusearch {
+    margin-top: 45px;
+  }
+  /* line 16, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 3.3rem;
+  }
+  /* line 19, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 2.3rem;
+  }
+  /* line 23, ../sass/_mobileresponsive.scss */
+  html body main #container2 {
+    width: 90%;
+  }
+  /* line 26, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    width: 85%;
+  }
+  /* line 29, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin: 50px 75px 50px 75px;
+  }
+  /* line 33, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.proceed {
+    position: relative;
+    left: 75px;
+  }
+  /* line 37, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.back {
+    position: relative;
+    right: 75px;
+  }
+}
+@media only screen and (max-width: 1113px) {
+  /* line 54, ../sass/_mobileresponsive.scss */
+  html body #topheader {
+    padding: 15px;
+  }
+  /* line 57, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 1.8rem;
+  }
+  /* line 61, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 140px;
+  }
+  /* line 65, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    width: 200px;
+    background-position-x: 160px;
+  }
+  /* line 72, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 3rem;
+  }
+  /* line 75, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 2.1rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* line 89, ../sass/_mobileresponsive.scss */
+  html body #topheader {
+    padding: 0;
+  }
+  /* line 91, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj {
+    width: 32%;
+    margin: 50px 0 50px 0;
+  }
+  /* line 95, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj.menusearch {
+    margin-top: 70px;
+  }
+  /* line 98, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    font-size: 0.9rem;
+  }
+  /* line 104, ../sass/_mobileresponsive.scss */
+  html body main {
+    padding: 0;
+  }
+  /* line 107, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    margin-top: 25px;
+    font-size: 3rem;
+  }
+  /* line 111, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.8rem;
+  }
+  /* line 115, ../sass/_mobileresponsive.scss */
+  html body main #container2 {
+    margin: 35px auto 25px auto;
+  }
+  /* line 118, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    width: 76%;
+    font-size: 3.7rem;
+  }
+  /* line 120, ../sass/_mobileresponsive.scss */
+  html body main #container3 #lineone {
+    margin: 35px 0 0 0;
+  }
+  /* line 124, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 130, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin: 50px 155px 50px 155px;
+  }
+}
+@media only screen and (max-width: 923px) {
+  /* line 146, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 1.8rem;
+  }
+  /* line 150, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 140px;
+  }
+  /* line 157, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 2.7rem;
+  }
+  /* line 161, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.85rem;
+  }
+  /* line 165, ../sass/_mobileresponsive.scss */
+  html body main #container2 {
+    width: 79%;
+  }
+  /* line 168, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    width: 76%;
+    font-size: 3.1rem;
+  }
+  /* line 172, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 177, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin: 50px 110px 50px 110px;
+  }
+}
+@media only screen and (max-width: 833px) {
+  /* line 196, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 2.4rem;
+  }
+  /* line 199, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.60rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 212, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj {
+    margin: 30px 0 30px 0;
+  }
+  /* line 215, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 1.53rem;
+  }
+  /* line 218, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    width: 190px;
+    background-position-x: 150px;
+  }
+  /* line 222, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 140px;
+  }
+  /* line 228, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.back {
+    position: relative;
+    right: 25px;
+  }
+  /* line 232, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.proceed {
+    position: relative;
+    left: 25px;
+  }
+  /* line 238, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 2.3rem;
+  }
+  /* line 241, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.5rem;
+  }
+  /* line 245, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    font-size: 3.1rem;
+  }
+  /* line 246, ../sass/_mobileresponsive.scss */
+  html body main #container3 #lineone {
+    margin: 30px 0 0 0;
+    width: 97%;
+  }
+  /* line 251, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 256, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin: 30px 90px 40px 90px;
+  }
+  /* line 258, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 {
+    margin: 30px 20px 0 20px;
+  }
+  /* line 260, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu {
+    font-size: 1.5rem;
+    height: 20px;
+  }
+  /* line 265, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 {
+    margin: 0 20px 20px 20px;
+    font-size: 1.1rem;
+  }
+  /* line 268, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 .inputbox {
+    height: 50px;
+  }
+  /* line 274, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn {
+    height: 22px;
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+  }
+  /* line 283, ../sass/_mobileresponsive.scss */
+  html body footer #circont {
+    padding: 15px 0 0 0;
+  }
+  /* line 285, ../sass/_mobileresponsive.scss */
+  html body footer #circont .circimg {
+    height: 45px;
+    width: 45px;
+  }
+  /* line 291, ../sass/_mobileresponsive.scss */
+  html body footer #reference .content {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 712px) {
+  /* line 308, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj.menusearch {
+    margin-top: 50px;
+  }
+  /* line 311, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 120px;
+  }
+  /* line 314, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 1.2rem;
+  }
+  /* line 317, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    width: 165px;
+    background-position-x: 125px;
+  }
+  /* line 325, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+  /* line 329, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.3rem;
+  }
+  /* line 333, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin: 30px 70px 30px 70px;
+  }
+  /* line 336, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 .inputbox {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  /* line 354, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 1.78rem;
+  }
+  /* line 358, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.2rem;
+  }
+  /* line 362, ../sass/_mobileresponsive.scss */
+  html body main #container2 {
+    width: 82%;
+  }
+  /* line 365, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    width: 80%;
+  }
+  /* line 368, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    border: 8px solid #BFBFBF;
+  }
+  /* line 371, ../sass/_mobileresponsive.scss */
+  html body main #container3 #lineone {
+    margin-top: 28px;
+    border: 4px solid #BFBFBF;
+  }
+  /* line 376, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 553px) {
+  /* line 392, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    width: 145px;
+    height: 30px;
+    background-position-x: 110px;
+    background-size: 28px;
+  }
+  /* line 402, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+  /* line 406, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 1.03rem;
+  }
+  /* line 410, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    font-size: 2.5rem;
+  }
+  /* line 412, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    height: 40px;
+    width: 40px;
+    border: 6px solid #BFBFBF;
+  }
+  /* line 419, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+  /* line 422, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 {
+    font-size: 0.9rem;
+  }
+  /* line 424, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 .inputbox {
+    height: 30px;
+    border-radius: 5px;
+  }
+  /* line 431, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu {
+    font-size: 1.2rem;
+  }
+  /* line 437, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn {
+    font-size: 1.4rem;
+    padding: 15px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 454, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    height: 20px;
+    width: 108px;
+    background-position-x: 85px;
+    background-position-y: 1px;
+    background-size: contain;
+    border-radius: 5px;
+  }
+  /* line 462, ../sass/_mobileresponsive.scss */
+  html body #topheader .headerobj.menusearch {
+    margin-top: 35px;
+  }
+  /* line 466, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 1rem;
+  }
+  /* line 469, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 80px;
+  }
+  /* line 478, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn {
+    font-size: 1.1rem;
+    padding: 13px 10px 10px 10px;
+    margin-bottom: 30px;
+  }
+  /* line 484, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.proceed {
+    left: 10px;
+  }
+  /* line 487, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.back {
+    right: 10px;
+  }
+  /* line 492, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 1.3rem;
+    margin: 15px 0 15px;
+  }
+  /* line 496, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 0.9rem;
+  }
+  /* line 500, ../sass/_mobileresponsive.scss */
+  html body main #container2 {
+    border: 1px solid #EBEBEB;
+    margin: 20px auto 15px auto;
+    width: 83%;
+  }
+  /* line 505, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    font-size: 1.7rem;
+  }
+  /* line 507, ../sass/_mobileresponsive.scss */
+  html body main #container3 #lineone {
+    margin: 17px 0 0 0;
+    width: 90%;
+    border: 3px solid #BFBFBF;
+  }
+  /* line 512, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #BFBFBF;
+  }
+  /* line 518, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    font-size: 0.9rem;
+    margin: 30px 50px 20px 50px;
+    border-radius: 5px;
+  }
+  /* line 522, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 {
+    margin: 10px 0;
+  }
+  /* line 525, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu {
+    font-size: 1.1rem;
+    padding: 5px 0 5px;
+  }
+  /* line 531, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu.one {
+    border-radius: 5px 0;
+  }
+  /* line 534, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu.two {
+    border-radius: 0 5px;
+  }
+  /* line 539, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 {
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
+  /* line 544, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 .inputbox {
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    font-size: 0.9rem;
+  }
+  /* line 554, ../sass/_mobileresponsive.scss */
+  html body footer {
+    padding: 0 0 15px;
+  }
+  /* line 558, ../sass/_mobileresponsive.scss */
+  html body footer #copyright #crarticle1 {
+    font-size: 0.7rem;
+  }
+  /* line 562, ../sass/_mobileresponsive.scss */
+  html body footer #copyright #crarticle2 {
+    font-size: 0.7rem;
+  }
+  /* line 567, ../sass/_mobileresponsive.scss */
+  html body footer #reference .content {
+    font-size: 1rem;
+  }
+  /* line 572, ../sass/_mobileresponsive.scss */
+  html body footer #circont .circimg {
+    margin: 0 10px 0 10px;
+    height: 30px;
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 409px) {
+  /* line 592, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  /* line 596, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 0.77rem;
+  }
+  /* line 601, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+}
+@media only screen and (max-width: 364px) {
+  /* line 621, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 0.9rem;
+  }
+  /* line 625, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 70px;
+  }
+  /* line 628, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    width: 80px;
+    background-position-x: 60px;
+  }
+  /* line 638, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 0.97rem;
+  }
+  /* line 641, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 0.67rem;
+  }
+  /* line 645, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  /* line 650, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.proceed {
+    left: 20px;
+  }
+  /* line 655, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.back {
+    right: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 671, ../sass/_mobileresponsive.scss */
+  html body #topheader {
+    padding: 1px;
+  }
+  /* line 673, ../sass/_mobileresponsive.scss */
+  html body #topheader #vivamus {
+    height: 60px;
+  }
+  /* line 676, ../sass/_mobileresponsive.scss */
+  html body #topheader #searchbox {
+    height: 15px;
+    width: 75px;
+    background-position-x: 60px;
+    font-size: 0.6rem;
+  }
+  /* line 683, ../sass/_mobileresponsive.scss */
+  html body #topheader .headermenu {
+    font-size: 0.9rem;
+  }
+  /* line 689, ../sass/_mobileresponsive.scss */
+  html body main #container1 #vivamusinterdum {
+    font-size: 0.97rem;
+    margin-bottom: 5px;
+  }
+  /* line 693, ../sass/_mobileresponsive.scss */
+  html body main #container1 #duisrisus {
+    font-size: 0.67rem;
+  }
+  /* line 697, ../sass/_mobileresponsive.scss */
+  html body main #container3 {
+    font-size: 1.4rem;
+  }
+  /* line 700, ../sass/_mobileresponsive.scss */
+  html body main #container3 .circle {
+    width: 25px;
+    height: 25px;
+    border: 3.5px solid #BFBFBF;
+  }
+  /* line 706, ../sass/_mobileresponsive.scss */
+  html body main #container3 #lineone {
+    margin-top: 13px;
+    border: 2.5px solid #BFBFBF;
+  }
+  /* line 711, ../sass/_mobileresponsive.scss */
+  html body main #container4 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+  /* line 719, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container5 .tabmenu {
+    font-size: 0.9rem;
+    height: 16px;
+  }
+  /* line 724, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 {
+    font-size: 0.67rem;
+  }
+  /* line 727, ../sass/_mobileresponsive.scss */
+  html body main #container4 #container6 .inputbox {
+    font-size: 0.7rem;
+  }
+  /* line 733, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn {
+    font-size: 0.9rem;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  /* line 739, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.back {
+    right: 15px;
+  }
+  /* line 742, ../sass/_mobileresponsive.scss */
+  html body main #backproceed .backproceedbtn.proceed {
+    left: 15px;
+  }
+  /* line 751, ../sass/_mobileresponsive.scss */
+  html body footer #copyright #crarticle1 {
+    font-size: 0.5rem;
+  }
+  /* line 754, ../sass/_mobileresponsive.scss */
+  html body footer #copyright #crarticle2 {
+    font-size: 0.5rem;
+  }
+  /* line 759, ../sass/_mobileresponsive.scss */
+  html body footer #reference {
+    margin-top: 10px;
+  }
+  /* line 761, ../sass/_mobileresponsive.scss */
+  html body footer #reference .content {
+    font-size: 0.57rem;
+  }
+  /* line 766, ../sass/_mobileresponsive.scss */
+  html body footer #circont {
+    padding-top: 10px;
+  }
+  /* line 768, ../sass/_mobileresponsive.scss */
+  html body footer #circont .circimg {
+    height: 25px;
+    width: 25px;
+    margin: 0 5px 0 5px;
+  }
+}
+/* line 11, ../sass/screen.scss */
+body {
+  padding: 0 0 0 0;
+  margin: 0;
+  height: 0;
+  background-color: #FFFFFF;
+  font-size: 60%;
+  /*HEADER-START-----------------------------------*/
+  /*HEADER-END-------------------------------------*/
+  /*BODY-START-----------------*/
+  /*BODY-END-------------------*/
+  /*FOOTER-START-----------------------------------------------------------*/
+}
+/* line 18, ../sass/screen.scss */
+body a:link {
+  text-decoration: none;
+  color: white;
+}
+/* line 22, ../sass/screen.scss */
+body a:visited {
+  text-decoration: none;
+  color: white;
+}
+/* line 26, ../sass/screen.scss */
+body a:hover {
+  color: grey;
+}
+/* line 31, ../sass/screen.scss */
+body #topheader {
+  /*padding: 50px 50px 50px 80px;*/
+  background-color: #2DA8C9;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+}
+/* line 38, ../sass/screen.scss */
+body #topheader .headerobj {
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  width: auto;
+  margin: 0 50px 0 50px;
+}
+/* line 45, ../sass/screen.scss */
+body #topheader .headerobj.menusearch {
+  vertical-align: top;
+  margin-top: 20px;
+}
+/* line 52, ../sass/screen.scss */
+body #topheader #vivamus {
+  display: inline-block;
+  width: auto;
+  height: 150px;
+  vertical-align: middle;
+}
+/* line 59, ../sass/screen.scss */
+body #topheader .headermenu {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+}
+/* line 68, ../sass/screen.scss */
+body #topheader #searchbox {
+  vertical-align: middle;
+  display: inline-block;
+  width: 220px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 32px;
+  border: 1px solid white;
+  background-image: url("../../image/magnifyglass.png");
+  background-color: #2DA8C9;
+  background-repeat: no-repeat;
+  background-position-x: 179px;
+  background-position-y: 3px;
+}
+/* line 87, ../sass/screen.scss */
+body main {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 50px;
+  text-align: center;
+  /*BUTTON*/
+}
+/* line 94, ../sass/screen.scss */
+body main #container1 {
+  text-align: center;
+  font-family: Arial;
+  height: auto;
+  color: #2da8c9;
+}
+/* line 101, ../sass/screen.scss */
+body main #container1 #vivamusinterdum {
+  font-size: 3.7rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/* line 107, ../sass/screen.scss */
+body main #container1 #duisrisus {
+  font-size: 2.5rem;
+}
+/* line 110, ../sass/screen.scss */
+body main #container1 #integer {
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+/* line 116, ../sass/screen.scss */
+body main #container2 {
+  width: 75%;
+  border: 2px solid #EBEBEB;
+  margin: 50px auto;
+}
+/* line 122, ../sass/screen.scss */
+body main #container3 {
+  position: relative;
+  display: inline-block;
+  height: auto;
+  width: 70%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: Arial;
+}
+/* line 131, ../sass/screen.scss */
+body main #container3 #lineone {
+  margin: 40px 0 0 0;
+  position: absolute;
+  width: 95%;
+  border: 5px solid #BFBFBF;
+  z-index: 0;
+}
+/* line 4, ../sass/_mixins.scss */
+body main #container3 .circle {
+  color: #2da8c9;
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #BFBFBF;
+  border-radius: 70px;
+}
+/* line 14, ../sass/_mixins.scss */
+body main #container3 .circle.one {
+  float: left;
+  background-color: white;
+}
+/* line 18, ../sass/_mixins.scss */
+body main #container3 .circle.two {
+  background-color: #2DA8C9;
+  color: white;
+}
+/* line 22, ../sass/_mixins.scss */
+body main #container3 .circle.three {
+  float: right;
+  background-color: white;
+}
+/* line 140, ../sass/screen.scss */
+body main #container4 {
+  color: #2da8c9;
+  clear: both;
+  margin: 50px 190px 50px 190px;
+  padding: 20px;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-color: #EBEBEB;
+  text-align: left;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 1.6rem;
+}
+/* line 157, ../sass/screen.scss */
+body main #container4 #container5 {
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin: 30px 30px 0 30px;
+}
+/* line 165, ../sass/screen.scss */
+body main #container4 #container5 .tabmenu {
+  color: white;
+  padding: 15px 0 15px 0;
+  height: 30px;
+  width: 50%;
+  display: inline-block;
+  background-color: #2da8c9;
+  font-size: 2rem;
+  font-weight: 600;
+}
+/* line 176, ../sass/screen.scss */
+body main #container4 #container5 .tabmenu.one {
+  float: left;
+  border-radius: 10px 0 0 0;
+}
+/* line 180, ../sass/screen.scss */
+body main #container4 #container5 .tabmenu.two {
+  float: right;
+  border-radius: 0 10px 0 0;
+  background-color: white;
+  color: #2da8c9;
+}
+/* line 187, ../sass/screen.scss */
+body main #container4 #container6 {
+  position: relative;
+  clear: both;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  height: auto;
+  width: auto;
+  padding: 20px 40px 20px 40px;
+  font-size: 1.4rem;
+  margin: 0 30px 30px 30px;
+  /*#visa {
+    position: absolute;
+  }*/
+}
+/* line 200, ../sass/screen.scss */
+body main #container4 #container6 .inputbox {
+  display: block;
+  height: 60px;
+  width: 50%;
+  border: 1px transparent;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin: 0 0 30px 0;
+  background-color: #EBEBEB;
+}
+/* line 210, ../sass/screen.scss */
+body main #container4 #container6 .inputbox.two {
+  width: 70%;
+}
+/* line 213, ../sass/screen.scss */
+body main #container4 #container6 .inputbox.three {
+  width: 70%;
+}
+/* line 28, ../sass/_mixins.scss */
+body main #backproceed {
+  color: white;
+  clear: both;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  width: 70%;
+}
+/* line 36, ../sass/_mixins.scss */
+body main #backproceed .backproceedbtn {
+  padding: 20px;
+  height: 40px;
+  width: 35%;
+  background-color: #2da8c9;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-family: Arial;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+/* line 48, ../sass/_mixins.scss */
+body main #backproceed .backproceedbtn.back {
+  display: inline-block;
+  float: left;
+}
+/* line 53, ../sass/_mixins.scss */
+body main #backproceed .backproceedbtn.proceed {
+  display: inline-block;
+  float: right;
+}
+/* line 229, ../sass/screen.scss */
+body footer {
+  height: auto;
+  background-color: #BFBFBF;
+  padding: 0 0 30px 0;
+}
+/* line 234, ../sass/screen.scss */
+body footer #circont {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+/* line 238, ../sass/screen.scss */
+body footer #circont .circimg {
+  margin: 0 15px 0 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: white;
+}
+/* line 247, ../sass/screen.scss */
+body footer #reference {
+  text-align: center;
+  margin: 20px;
+}
+/* line 250, ../sass/screen.scss */
+body footer #reference .content {
+  display: inline-block;
+  font-family: "Segoe UI Symbol";
+  font-size: 2rem;
+  color: White;
+}
+/* line 257, ../sass/screen.scss */
+body footer #copyright {
+  text-align: center;
+}
+/* line 260, ../sass/screen.scss */
+body footer #copyright #crarticle1 {
+  display: inline-block;
+  font-family: "Segoe UI Symbol";
+  font-size: 1rem;
+  color: white;
+}
+/* line 266, ../sass/screen.scss */
+body footer #copyright #crarticle2 {
+  font-family: "Segoe UI Symbol";
+  font-size: 1rem;
+  color: white;
+}
+
+/*FOOTER-END-----------------------------------------------------------*/
